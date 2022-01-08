@@ -15,9 +15,12 @@ Feel free to borrow from Exercise 1.
     display: grid;
     width: 220px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.432);
-
 }
 
+section {
+    margin-left: 10px;
+
+}
 body {
     font-family: "Sofia", sans-serif;
 }
@@ -51,7 +54,7 @@ main {
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
     .card {
-        width: 270px;
+        width: 350px;
       }
 }
 
